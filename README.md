@@ -1,27 +1,18 @@
-# sails-jwt-auth
+# Sails.js JSON Web Token Authentication System
 
-a [Sails v1](https://sailsjs.com) application
+Based on Passport/[Waterlock](https://github.com/waterlock/waterlock) JSON web token authentication system for [Sails](https://sailsjs.com), created to support version 1 of Sails.js
 
-
-### Links
-
-+ [Get started](https://sailsjs.com/get-started)
-+ [Sails framework documentation](https://sailsjs.com/documentation)
-+ [Version notes / upgrading](https://sailsjs.com/documentation/upgrading)
-+ [Deployment tips](https://sailsjs.com/documentation/concepts/deployment)
-+ [Community support options](https://sailsjs.com/support)
-+ [Professional / enterprise options](https://sailsjs.com/enterprise)
+This package currently supports MySQL databases out of the box, but can be changed by viewing the Sails [documentation](https://sailsjs.com/documentation/reference/configuration/sails-config-datastores)
 
 
-### Version info
+### Installation
 
-This app was originally generated on Sat Oct 26 2019 19:59:07 GMT+0100 (British Summer Time) using Sails v1.0.2.
++ Clone the repo into a desired directory
++ Create a new database and database credentials
++ Update "api/config/datastores.js" with the new database credentials
++ Open "api/config/custom.js" and change the JWT settings (JWT secret string, expiry and encryption level)
++ [Lift your app](https://sailsjs.com/get-started)!
 
-<!-- Internally, Sails used [`sails-generate@1.15.28`](https://github.com/balderdashy/sails-generate/tree/v1.15.28/lib/core-generators/new). -->
+### Notes
 
-
-
-<!--
-Note:  Generators are usually run using the globally-installed `sails` CLI (command-line interface).  This CLI version is _environment-specific_ rather than app-specific, thus over time, as a project's dependencies are upgraded or the project is worked on by different developers on different computers using different versions of Node.js, the Sails dependency in its package.json file may differ from the globally-installed Sails CLI release it was originally generated with.  (Be sure to always check out the relevant [upgrading guides](https://sailsjs.com/upgrading) before upgrading the version of Sails used by your app.  If you're stuck, [get help here](https://sailsjs.com/support).)
--->
-
++ To help with development, we recommend using [Nodemon](https://www.npmjs.com/package/nodemon) to automatically restart your app when file changes are detected. Instead of using "sails lift", use "nodemon app.js" instead in the console to lift your app.
