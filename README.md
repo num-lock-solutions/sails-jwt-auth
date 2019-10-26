@@ -8,6 +8,7 @@ This package currently supports MySQL databases out of the box, but can be chang
 ### Installation
 
 + Clone the repo into a desired directory
++ Open a terminal window, cd into the root of the project directory and run "npm install"
 + Create a new database and database credentials
 + Update "api/config/datastores.js" with the new database credentials
 + Open "api/config/custom.js" and change the JWT settings (JWT secret string, expiry and encryption level)
