@@ -17,6 +17,12 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': true,
+ '*': ['jwt'],
+ 'auth': {
+  'login': true,
+  'register': true,
+  'logout': ['jwt'],
+  'update': ['jwt']
+}
 
 };

@@ -8,10 +8,15 @@
     "@sailshq/lodash": "^3.10.3",
     "ajv": "^6.10.2",
     "ajv-keywords": "^3.4.1",
-    "async": "2.0.1",
+    "async": "^3.1.0",
+    "bcrypt": "^3.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "nested-pop": "^0.1.4",
+    "request": "^2.88.0",
     "sails": "^1.0.2",
     "sails-hook-orm": "^2.0.0-16",
-    "sails-hook-sockets": "^1.4.0"
+    "sails-hook-sockets": "^1.4.0",
+    "sails-mysql": "^1.0.1"
   },
   "devDependencies": {
     "@sailshq/eslint": "^4.19.3"

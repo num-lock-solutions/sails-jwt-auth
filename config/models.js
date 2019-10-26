@@ -53,7 +53,7 @@ module.exports.models = {
   *                                                                          *
   ***************************************************************************/
 
-  // migrate: 'alter',
+  migrate: 'alter',
 
 
   /***************************************************************************
@@ -101,7 +101,7 @@ module.exports.models = {
   ******************************************************************************/
 
   dataEncryptionKeys: {
-    default: 'bXjNYrUSqosoWZQc2Ysu2pLVvFnj3hrb0rnLKstZIUU='
+    default: 'vpf6ESuKkqRcAz5KOWkClNacr6NHSjy4vji6GMMGnFE='
   },
 
 
