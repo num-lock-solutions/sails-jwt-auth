@@ -9,7 +9,7 @@
     "ajv": "^6.10.2",
     "ajv-keywords": "^3.4.1",
     "async": "^3.1.0",
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "jsonwebtoken": "^8.5.1",
     "nested-pop": "^0.1.4",
     "request": "^2.88.0",
